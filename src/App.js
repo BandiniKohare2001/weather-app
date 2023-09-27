@@ -83,8 +83,9 @@ export default function App() {
   return (
     <div>
       <div className="top-container">
-       <h1>GET-CHECK-WEATHER</h1>
+       <h1>GET CHECK WEATHER</h1>
        <div>
+        <p>weather-app-sepia-seven-12.vercel.app</p>
         <input className="input-search" type="text" placeholder="Enter city " value={city}
           onChange={(e) => {
             setCity(e.target.value);
