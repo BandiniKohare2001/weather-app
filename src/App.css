@@ -1,38 +1,133 @@
-.App {
+.input-search {
+  font-size: 20px;
+  padding-left: 10px;
+  border-radius: 30px;
+  display: block;
+  margin-left: auto;
+  margin-top: 130px;
+  background-color: white;
+  height: 45px;
+  width: 550px;
+}
+
+.app-card-container {
+  display: flex;
+  justify-content: center;
+  margin-top: -8%;
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+  margin-top: -150px;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.slogen-line {
+  font-size: 30px;
+  margin-left: 50px;
+  margin-top: -20px;
+  font-weight: bold;
+  color: rgb(9, 55, 169);
+}
+
+.temp-text {}
+
+.current-temp {
+  font-size: 50px;
+  margin-left: 0px;
+  margin-top: 0px;
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 200px;
+  flex-wrap: wrap;
+}
+
+h1 {
+  color: white;
+  margin-left: 50px;
+}
+
+.footer {
+  height: 100px;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 23px;
+  margin-top: -10%;
+  margin-bottom: 10px;
+}
+
+.conainer-flex {
+  height: 230px;
+  width: 300px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.city-name {
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.temp {
+  font-size: 40px;
+  color: #fff;
+  /* font-weight: bold; */
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+  .input-search {
+    height: 41px;
+    width: 350px;
+    font-size: 20px;
+    margin: 20px;
+    padding-left: 10px;
+    border-radius: 7px;
+    background-color: rgb(180, 209, 248);
+    border: 3px solid rgb(40, 67, 135);
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .app-heading {
+    margin-left: 30px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .slogen-line {
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+
+}
+
+@media screen and (min-width: 770px) and (max-width: 1300px) {
+  .input-search {
+
+    height: 41px;
+    width: 350px;
+    font-size: 20px;
+    padding-left: 10px;
+    border-radius: 7px;
+    margin: 0px;
+    margin-left: 450px;
+    margin-top: 50px;
+    background-color: rgb(180, 209, 248);
+    border: 3px solid rgb(40, 67, 135);
   }
 }

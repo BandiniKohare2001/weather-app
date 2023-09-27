@@ -1,0 +1,28 @@
+.cardcontainer {
+    height: 80px;
+    width: 250px;
+    padding: 30px;
+    background-color: #ffffff5a;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 30px;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.heading-card {
+    font-size: 25px;
+    margin-left: 20px;
+    margin-top: -2px;
+}
+
+.card-img {
+    height: 80px;
+
+}
+
+.card-report {
+    font-size: 30px;
+    margin-left: 20px;
+    color: white;
+}
