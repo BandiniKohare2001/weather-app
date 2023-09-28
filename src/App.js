@@ -85,7 +85,7 @@ export default function App() {
       <div className="top-container">
        <h1>GET CHECK WEATHER</h1>
        <div>
-        <p>weather-app-sepia-seven-12.vercel.app</p>
+       
         <input className="input-search" type="text" placeholder="Enter city " value={city}
           onChange={(e) => {
             setCity(e.target.value);
@@ -100,15 +100,14 @@ export default function App() {
 
      
       <div className="d-flex">
+      <div className="conainer-flex">
+         <img src={wicon} alt="asd" />
+         </div>
           <div className="conainer-flex">
             <h2>City</h2>
           <p className="city-name"> {weatherData?.name}</p>
           
           </div>
-
-         <div className="conainer-flex">
-         <img src={wicon} alt="asd" />
-         </div>
 
           <div className="conainer-flex">
             <h2>Tempreture</h2>
