@@ -3,6 +3,7 @@ import "./Card.css"
 
 export default function Card({head, Img,report,Text,unit}) {
     return (
+        <div className='main'>
         <div className='cardcontainer'>
             <div>
 <img className='card-img' src={Img} alt="" /></div>
@@ -14,6 +15,6 @@ export default function Card({head, Img,report,Text,unit}) {
             <p>{Text}</p></div>
 
         </div>
-     
+     </div>
     )
 }

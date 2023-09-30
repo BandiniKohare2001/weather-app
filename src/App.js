@@ -104,18 +104,13 @@ export default function App() {
          <img src={wicon} alt="asd" />
          </div>
           <div className="conainer-flex">
-            <h2>City</h2>
-          <p className="city-name"> {weatherData?.name}</p>
           
-          </div>
-
-          <div className="conainer-flex">
-            <h2>Tempreture</h2>
+          <p className="city-name"> {weatherData?.name}</p>
           <p className="temp">
             {" "}
             {(weatherData?.main?.temp - 273).toFixed(2)} °C
           </p>
-         
+           
           </div>
         </div>
 <div className="app-card-container">
