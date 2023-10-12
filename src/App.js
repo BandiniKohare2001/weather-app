@@ -30,7 +30,7 @@ export default function App() {
     let data = ""
 
     try {
-      data = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=db37138b8bb5b173c89f46518dfd2de6`)
+      data = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${process.env.REACT_APP_API_KEY}`)
 
     }
     catch (error) {
