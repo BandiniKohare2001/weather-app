@@ -1,9 +1,15 @@
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: -05%;
+}
 .input-search {
   font-size: 20px;
   padding-left: 10px;
   border-radius: 30px;
-  display: block;
-  margin-left: auto;
+ display: flex;
+ justify-content: center;
   margin-top: 130px;
   background-color: white;
   height: 45px;
@@ -14,7 +20,8 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-top: -1%;
+  margin-top: 100px;
+ 
 }
 
 .result {
@@ -44,6 +51,7 @@
   display: flex;
   justify-content: space-around;
   margin-top: 200px;
+ 
   flex-wrap: wrap;
 }
 
@@ -60,7 +68,7 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   padding-bottom: 23px;
   margin-top: -10%;
   margin-bottom: 10px;
@@ -71,6 +79,7 @@ h1 {
   width: 300px;
   margin-top: -40px;
   text-align: center;
+  
 }
 
 .city-name {
@@ -121,7 +130,6 @@ h1 {
     margin: 0px;
     margin-left: 450px;
     margin-top: 50px;
-    background-color: rgb(180, 209, 248);
-    border: 3px solid rgb(40, 67, 135);
+ 
   }
 }

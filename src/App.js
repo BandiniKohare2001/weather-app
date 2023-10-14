@@ -84,7 +84,7 @@ export default function App() {
     <div>
       <div className="top-container">
        <h1>GET CHECK WEATHER</h1>
-       <div>
+       <div className="inputContainer">
        
         <input className="input-search" type="text" placeholder="Enter city " value={city}
           onChange={(e) => {
